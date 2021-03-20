@@ -65,7 +65,7 @@ $(function () {
                 if (res.status != 0) {
                     return layer.msg(res.message, { icon: 5 });
                 }
-                localStorage.setItem('tokrn', res.token);
+                localStorage.setItem('token', res.token);
                 // 跳转
                 location.href = "/index.html";
             }
